@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.footer-btn{
+    background-color: #ff5a60;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+}
+
+.footer-txt{
+    display: flex;
+    flex-direction: column;
+    padding-top: 33px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.confirmed{
+    background-color: white;
+    color: #ff5a60;
+}

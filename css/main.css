@@ -1,0 +1,92 @@
+#sidebar-combo{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    height: 100vh;
+    
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: #ff5a60;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px;
+}
+
+#sidebar  img{
+    width: 100px;
+    margin: 20px;
+}
+
+.menu-label{
+    font-size: 1.2rem;
+}
+
+#main-content{
+    display: grid;
+    grid-template-rows: 0.1fr 0.1fr 1fr;
+    height: 50vh;
+    margin: 5px;
+}
+
+.menu-title{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #ff5a60;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.menu-controls{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.menu-controls span{
+    margin: 2px;
+    width: 50px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete{
+    background-color: rgb(221, 57, 57);
+}
+
+.edit{
+    background-color: #e3b91c;
+}
+
+.add{
+    background-color: #60dc59;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.table-header{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+    background-color: #f0f0f0;
+    margin: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+
+}
+
+.table-content{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
